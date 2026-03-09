@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabeca cabeca cabeca"
+    "braco corpo corpo"
+    "perna perna perna";
+    grid-template-rows: 200px 600px 150px;
+    grid-template-columns: 200px auto auto;
+}
+header{
+    grid-area: cabeca;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: braco;
+    background-color: green;
+}
+main{
+    grid-area: corpo;
+    background-color: steelblue;
+}
+footer{
+    grid-area: perna;
+    background-color: black;
+}
+@media only screen and (max-width:850px) {
+    
+}
