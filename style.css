@@ -24,7 +24,7 @@ footer{
     grid-area: perna;
     background-color: gold;
 }
-@media (max-width: 500px) {
+@media only screen and (max-width:850px) {
     body {
         grid-template-areas: "cabeca"
                              "corpo"
@@ -36,7 +36,6 @@ footer{
         display: none;
     }
 }
-   
 .mae{
     display: flex;
     flex-wrap: wrap;
